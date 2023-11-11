@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+}
+/* body header*/
+#body-header{
+    height:65vh;
+    opacity:0.8;
+    background-image:url(images/resumewallpaper.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+/* horiziontallist*/
+.horizontal-list{
+    list-style: none;
+    padding-left:0px;
+    margin:0px;
+
+}
+.horizontal-list li{
+    display:inline-block;
+    margin:0px 8px 8px 8px;
+}
+.horizontal-list li a{
+    color:white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.horizontal-list li a:hover{
+    color:greenyellow;
+    text-decoration: none;
+    border-bottom:1px solid white;
+}
+.text-center{
+    text-align:center;
+}
