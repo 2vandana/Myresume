@@ -1,0 +1,45 @@
+p{
+    color:red;
+    font-size:20px;
+}
+h1{
+    font-size: 40px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.cursive{
+    font-family: cursive;
+}
+li  h4{
+    text-transform: uppercase;
+    font-family: cursive;
+}
+#blog-desc{
+    color:aqua;
+}
+#blog-title:hover{
+    color:aquamarine;
+}
+#blog-content{
+    font-size:1.1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing:1px;
+    line-height:1.4;
+}
+aside{
+    display:inline-block;
+    width:21%;
+}
+.widget{
+    border-top:4px solid black;
+}
+.widget input{
+    display:block;
+    background-color:blue;
+    margin-bottom: 15px;
+    padding:4px;
+    color:black;
+    font-size:1.2rem;
+}

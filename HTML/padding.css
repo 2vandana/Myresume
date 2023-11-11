@@ -1,0 +1,16 @@
+#div1{
+    background-color: aquamarine;
+    height: 200px;
+    width:200px;
+}
+#div2{
+    background-color: grey;
+    height:200px;
+    width:200px;
+}
+span{
+    display:block;
+}
+div{
+    display:inline-block;
+}
