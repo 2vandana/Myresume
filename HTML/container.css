@@ -1,0 +1,8 @@
+#container{
+    width:50px;
+    height:auto;
+    border:2px solid black;
+    overflow-wrap:break-word;
+    background-image:linear-gradient(red,cyan,blue);
+    background:repeating-linear-gradient(to top right,red,blue);
+}

@@ -1,0 +1,39 @@
+#container{
+    height:75vh;
+    width:75vh;
+    background-color: lightgrey;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    /* wrap reverse will be filled from bottom to up */
+    /*flex-wrap property value default value is "nowrap" */
+    /*default value of align-items is stretch*/
+       justify-content: center;
+
+       align-items:center;
+}    
+#container div{
+    height:200px;
+    width:200px;
+    max-height:400px;
+}
+#div1{
+    background-color:cyan;
+   /* order:1; */
+   flex-grow: 1;
+   /*flex-shrink */
+    margin:10px;
+}
+#div2{
+    background-color:red;
+    flex-grow: 1;
+    margin:30px;
+}
+#div3{
+    background-color:grey;
+    margin:30px;
+}
+#div4{
+    background-color:brown;
+    margin:30px;
+}

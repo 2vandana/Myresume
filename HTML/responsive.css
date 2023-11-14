@@ -1,0 +1,35 @@
+html{
+    font-size: 30px;
+}
+#div1{
+    width:1100px; /*fixed layout */
+  /*  width:60%; /*fluid layout*/
+  /*elastic layout */
+    padding:5px;
+    border:1px solid black;
+}
+/*
+/*less than equal to 600 
+@media screen and (max-width:600px) {
+    #div1{
+        width:100%;
+    }
+}
+@media screen and (max-width:900px){
+    #div1{
+        width:90%;
+    } 
+}
+
+*/
+@media screen and (min-width:600px){
+    #div1{
+        width:80%;
+    }
+
+}
+@media screen and (min-width:900px){
+    #div1{
+        width:60%;
+    }
+}
