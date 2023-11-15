@@ -1,0 +1,26 @@
+@keyframes changeShape{
+    from{
+        border-radius:0%;
+    }
+    to{
+        border-radius: 50%;
+    }
+}
+div{
+    height:100px;
+    width:100px;
+    position:absolute;
+    top:20%;
+    left:20%;
+    background-color: aqua;
+  /*  transform:translate(100px,100px); 
+    transition: is ease-in-out 0.5s;
+  transform:
+*/
+animation:changeShape is ease-in-out 2;
+    
+}
+div:hover{
+    height:400px;
+    width:400px;
+}
